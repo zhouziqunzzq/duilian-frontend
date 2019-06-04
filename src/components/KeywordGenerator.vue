@@ -95,7 +95,7 @@
               },
             }>(config.baseUrl + "keyword",
               {
-                input: this.firstLine,
+                input: this.keyword,
               });
             if (response.parsedBody!.result) {
               this.showInfo(response.parsedBody!.msg);
